@@ -1,0 +1,8 @@
+{
+  "version": "0.5.0",
+  "path": "/Tomboy77/jack-in-the-box-firmware/main/firmware-0.5.0.bin",
+  "size": 1069056,
+  "sha256": "33aa9d3ea505f3aba1e584686065e2770fb211c2b7266cec22fbecf1248eacd1",
+  "sig": "MEUCIQDfervUXr6mSaZssvL4n4C7dNjACtsb5mVSGKz9Gr/TdAIgXguthJZEbyVSgijaKQQXB1zM0IMHzx2U6+S3gJE9l0Q=",
+  "notes": "OTA-Erstinstallation"
+}
