@@ -1,8 +1,8 @@
 {
-  "version": "0.5.0",
-  "path": "/Tomboy77/jack-in-the-box-firmware/main/firmware-0.5.0.bin",
-  "size": 1069056,
-  "sha256": "33aa9d3ea505f3aba1e584686065e2770fb211c2b7266cec22fbecf1248eacd1",
-  "sig": "MEUCIQDfervUXr6mSaZssvL4n4C7dNjACtsb5mVSGKz9Gr/TdAIgXguthJZEbyVSgijaKQQXB1zM0IMHzx2U6+S3gJE9l0Q=",
-  "notes": "OTA-Erstinstallation"
+  "version": "0.5.1",
+  "path": "/Tomboy77/jack-in-the-box-firmware/main/firmware-0.5.1.bin",
+  "size": 1069072,
+  "sha256": "a0baeffb3fa6997aa3770936ac2d43622825248732e19c2e9560a1ddbe37a8c5",
+  "sig": "MEUCIQCjXnun6GPX5OHWUEhZIVz9jt722KzIdLe1yEGdbcKlCgIgNI+94aW8Z1ZwnItopwyWQhl/4TVuOnV2K7AsUNj2HzU=",
+  "notes": "status: 'kein OTA bisher' statt 'unbekannt'"
 }
