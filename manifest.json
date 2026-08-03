@@ -1,8 +1,8 @@
 {
-  "version": "0.6.0",
-  "path": "/Tomboy77/jack-in-the-box-firmware/main/firmware-0.6.0.bin",
-  "size": 1087216,
-  "sha256": "f0d95d9ee75ea3abed2b1b0bd77e9f28ae611941afdc7425849e070744f0fe46",
-  "sig": "MEUCIAMP89lvtiuUONU0k1qNDF7Dkdj+kYuoY9Nrhc8lU4aGAiEAsIalix+o32U6c2fDZyiiJt2h4oGCASY2zVJBvJDOCqM=",
-  "notes": "v0.6.0: Sound-Abgleich per /sounds, Kurzanleitung im Konfig-Portal"
+  "version": "0.6.1",
+  "path": "/Tomboy77/jack-in-the-box-firmware/main/firmware-0.6.1.bin",
+  "size": 1087952,
+  "sha256": "cba8e2e048e166fd54df74b06f1ca050009c27230d9c984691ed8d536f6d2f37",
+  "sig": "MEUCIEvl6agor2B3DsgbuqW+3vV7SOfNf9yk3u1Pqv3LtKJ/AiEAtQa3wgEVhHzGcc2o8um1odUMRu9YLE8bSd15sKPA9Yo=",
+  "notes": "v0.6.1: LED unterscheidet jetzt 'kein WLAN' (5 Hz) von 'WLAN ok, Dienst weg' (1 Hz); Dauerlicht bei Updates"
 }
