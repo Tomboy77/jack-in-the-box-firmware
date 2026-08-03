@@ -1,8 +1,8 @@
 {
-  "version": "0.5.2-defekt",
-  "path": "/Tomboy77/jack-in-the-box-firmware/main/firmware-0.5.2-defekt.bin",
-  "size": 1069088,
-  "sha256": "93daf017296599e8a0b7e9a6a0f791126819873a000ed045f5cb3b6f19adebe1",
-  "sig": "MEUCIQCazKu9KgOMyfxSWs9AU5bByjAzEZYc7r8knsBKfldg0AIgQhyJO9dO2ZudVMJqOxTRZeHcUOzBjQ/5+f51OBB3Ns4=",
-  "notes": "ABSICHTLICH DEFEKT - Rollback-Test, erreicht ntfy nie"
+  "version": "0.5.1",
+  "path": "/Tomboy77/jack-in-the-box-firmware/main/firmware-0.5.1.bin",
+  "size": 1069072,
+  "sha256": "a0baeffb3fa6997aa3770936ac2d43622825248732e19c2e9560a1ddbe37a8c5",
+  "sig": "MEUCIQCjXnun6GPX5OHWUEhZIVz9jt722KzIdLe1yEGdbcKlCgIgNI+94aW8Z1ZwnItopwyWQhl/4TVuOnV2K7AsUNj2HzU=",
+  "notes": "status: 'kein OTA bisher' statt 'unbekannt'"
 }
