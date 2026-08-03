@@ -3,6 +3,6 @@
   "path": "/Tomboy77/jack-in-the-box-firmware/main/firmware-0.5.1.bin",
   "size": 1069072,
   "sha256": "a0baeffb3fa6997aa3770936ac2d43622825248732e19c2e9560a1ddbe37a8c5",
-  "sig": "MEUCIQCjXnun6GPX5OHWUEhZIVz9jt722KzIdLe1yEGdbcKlCgIgNI+94aW8Z1ZwnItopwyWQhl/4TVuOnV2K7AsUNj2HzU=",
+  "sig": "MEUCIQCjXnun6GPX5OHWUEhZIVz9jt722KzIdLe1yEGdbcKlBgIgNI+94aW8Z1ZwnItopwyWQhl/4TVuOnV2K7AsUNj2HzU=",
   "notes": "status: 'kein OTA bisher' statt 'unbekannt'"
 }
