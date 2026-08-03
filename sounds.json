@@ -1,0 +1,102 @@
+{
+  "set": "2026-08-03d",
+  "base": "/Tomboy77/jack-in-the-box-firmware/main/sounds",
+  "sig": "MEUCIQDkTTk5DsqVuAL9Chr34+R5bM23AXH65+EHEAEuNAWdZwIgaBasoFQWG0Bs3pbCfwQO4rzMeYSvhMST5DM3fYcEFH8=",
+  "files": [
+    {
+      "name": "alarm",
+      "size": 62764,
+      "sha256": "7aa0aed761015b245939a2a21bb5f1745032b04d40d3bc079e8f332cfe8994a4"
+    },
+    {
+      "name": "applaus",
+      "size": 94312,
+      "sha256": "03bd1cd8ce202791ce61caacf47647c120f6a9af8bae096039119a9357bce771"
+    },
+    {
+      "name": "button",
+      "size": 20844,
+      "sha256": "a65c9be3fbefca77c5cc929ca4a54364f43659c0cd31376ef8d7bcd10fff4a98"
+    },
+    {
+      "name": "countdown",
+      "size": 82788,
+      "sha256": "1887bde53b3393677ad71d7e7968eb8c545025cf99cc48240dc2e8b102763b94"
+    },
+    {
+      "name": "fail",
+      "size": 73644,
+      "sha256": "2077b18f2b7e3f24bbe06f7b5ebe0079ad0681f78ccb75852f93448db54a8460"
+    },
+    {
+      "name": "fanfare",
+      "size": 54444,
+      "sha256": "50f3869d99a79388598a659035a7e6fb541ffa7122fabb1c43e1f12501ff422f"
+    },
+    {
+      "name": "gong",
+      "size": 35676,
+      "sha256": "c803d8789a6bf6167ceb8cbe8aca942415a3e664ec94404fdd22143af184dd8c"
+    },
+    {
+      "name": "gutgemacht",
+      "size": 20678,
+      "sha256": "5785a34d86c8571ea6a45030c25de08667abcf2ee6424440d216ec1e61cac735"
+    },
+    {
+      "name": "horn",
+      "size": 143648,
+      "sha256": "cb79e34fe2688621c46d9442ab63c971e0a60b6c22d9418bb7481b96aa04d927"
+    },
+    {
+      "name": "kaching",
+      "size": 106660,
+      "sha256": "b9db1ffdc73d966dd62c0def4e1d4756cbaaf37533c484bbd48dc9291fce2b2f"
+    },
+    {
+      "name": "laugh",
+      "size": 99244,
+      "sha256": "52d563d870e9f328ada4abe9a3ace3a78edee665c37b3a0b1cc1bf15be475fdb"
+    },
+    {
+      "name": "mission",
+      "size": 108844,
+      "sha256": "119f0cadb007b5dc613fc38e3d35d976fd10d6bf43cbb27d9b56a4f752585b6d"
+    },
+    {
+      "name": "nein",
+      "size": 90496,
+      "sha256": "af6465903f3e91f4932a0194741a2c493af574952e5016f0881686fa4b548cae"
+    },
+    {
+      "name": "ohno",
+      "size": 37712,
+      "sha256": "7de0e91649e7b87f7acdca4e5284e9e3eaf124eb1a2588c3ef92aced8e733b03"
+    },
+    {
+      "name": "police",
+      "size": 68208,
+      "sha256": "d9a6b46a321bd4ba04fbf118381bc726850db277b07d40b8e1fe8f12226474b4"
+    },
+    {
+      "name": "rakete",
+      "size": 54700,
+      "sha256": "7ff01cb89e120ec1ebb33b7dab66dcde1a5c1ea60f9bb9093d8417a5f6e5d40b"
+    },
+    {
+      "name": "service",
+      "size": 41964,
+      "sha256": "76e0af29c142894b374174f7d5005e2930689dd657f5b62baee223bfe8e8b2ad"
+    },
+    {
+      "name": "trigger",
+      "size": 16524,
+      "sha256": "e9d3b1b7c0da425928ff0e500e1b56a27e9b32a147330c4e3fe591c8c68b23ce"
+    },
+    {
+      "name": "yipee",
+      "size": 95692,
+      "sha256": "21fc8e9abcd5d5a92bb4af808ec0457b2c295291733b9ec3e0fd9fbaa907a061"
+    }
+  ]
+}

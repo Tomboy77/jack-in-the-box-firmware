@@ -16,6 +16,9 @@ Firmware wäre ein Geheimnis auf einem Gerät, das anderswo steht.
 |---|---|
 | `manifest.json` | Was aktuell angeboten wird: Version, Pfad, Größe, SHA256, Signatur |
 | `firmware-<version>.bin` | Das Image selbst |
+| `sounds.json` | Der aktuelle Satz an Audiodateien: Kennung, Basispfad, pro Datei Größe + SHA256, dazu eine Signatur über die ganze Liste |
+| `sounds/*.wav` | Die Audiodateien (16 bit, Mono, 16 kHz) |
+| `SOUND-CREDITS.md` | Quellen und Lizenzen der Audiodateien |
 
 ```json
 {
@@ -31,6 +34,35 @@ Firmware wäre ein Geheimnis auf einem Gerät, das anderswo steht.
 `path` ist bewusst nur ein Pfad, kein vollständiger Link: der Host ist in der
 Firmware einkompiliert. Ein manipuliertes Manifest kann das Gerät damit nicht
 auf einen anderen Server umlenken.
+
+## Audiodateien
+
+Dasselbe Verfahren wie bei der Firmware, aus demselben Grund: das Gerät steht
+hinter fremdem Router und holt sich seine Dateien selbst.
+
+Der Unterschied ist, dass es für das Dateisystem **keinen zweiten Slot** gibt —
+also kein Zurückschalten am Ende. Das Gerät geht deshalb anders vor: es prüft
+zuerst, ob der gesamte Satz überhaupt in seine Partition passt, und fängt erst
+dann an. Jede Datei wird unter einem Zwischennamen geladen und erst nach
+bestandener Prüfsumme an ihren Platz umbenannt; die Fallback-Datei
+(`trigger.wav`) wird nie entfernt und zuletzt angefasst.
+
+Signiert wird nicht das JSON, sondern ein daraus gebildeter kanonischer Text —
+was unterschrieben ist, soll nicht davon abhängen, wie ein Serialisierer
+Leerzeichen setzt:
+
+```
+<set>\n<base>\n
+<name> <size> <sha256>\n      (aufsteigend nach Name)
+```
+
+Herkunft und Lizenzen stehen in `SOUND-CREDITS.md`: überwiegend Freesound
+(CC0 und CC-BY, alle Clips bearbeitet — resampelt, gefiltert, limitiert),
+dazu eigene Erzeugungen und Sprachsynthese. Bei zwei CC-BY-Clips ließ sich die
+genaue Aufnahme nicht mehr zweifelsfrei zurückverfolgen; das steht dort offen
+dabei, statt einen erfundenen Link zu nennen. **Wer sich falsch genannt sieht
+oder eine Aufnahme zuordnen kann: bitte melden, wir korrigieren oder
+entfernen.**
 
 ## Wie ein Update abläuft
 
