@@ -1,8 +1,8 @@
 {
-  "version": "0.6.1",
-  "path": "/Tomboy77/jack-in-the-box-firmware/main/firmware-0.6.1.bin",
-  "size": 1087952,
-  "sha256": "cba8e2e048e166fd54df74b06f1ca050009c27230d9c984691ed8d536f6d2f37",
-  "sig": "MEUCIEvl6agor2B3DsgbuqW+3vV7SOfNf9yk3u1Pqv3LtKJ/AiEAtQa3wgEVhHzGcc2o8um1odUMRu9YLE8bSd15sKPA9Yo=",
-  "notes": "v0.6.1: LED unterscheidet jetzt 'kein WLAN' (5 Hz) von 'WLAN ok, Dienst weg' (1 Hz); Dauerlicht bei Updates"
+  "version": "0.6.2",
+  "path": "/Tomboy77/jack-in-the-box-firmware/main/firmware-0.6.2.bin",
+  "size": 1088000,
+  "sha256": "f724709e799a428d57cab9c566f469e05c26792be4f58022eeb1788bf6509260",
+  "sig": "MEYCIQDBk3NgPqs/PqPfFsJu5gR0iJCKkd/XYKJCtNuHxEWPBAIhAO+zPyT1yK3lXva94/sYEgm6njVUny0YVz93GnwFaijh",
+  "notes": "Build ce2e437-dirty  ⚠ uncommittete Aenderungen"
 }
