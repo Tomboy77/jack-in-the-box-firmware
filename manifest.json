@@ -3,6 +3,6 @@
   "path": "/Tomboy77/jack-in-the-box-firmware/main/firmware-0.6.2.bin",
   "size": 1088000,
   "sha256": "f724709e799a428d57cab9c566f469e05c26792be4f58022eeb1788bf6509260",
-  "sig": "MEYCIQDBk3NgPqs/PqPfFsJu5gR0iJCKkd/XYKJCtNuHxEWPBAIhAO+zPyT1yK3lXva94/sYEgm6njVUny0YVz93GnwFaijh",
-  "notes": "Build ce2e437-dirty  ⚠ uncommittete Aenderungen"
+  "sig": "MEQCIC3+h4uLiOMPaQgtr/7YXSwnWJtuQ/cilU3bkZEEptqcAiA+nQCWaWNxZjQHt3NtOyoSuQv6WNZnBGuno67cEKa87g==",
+  "notes": "v0.6.2 (Quellen unveraendert aus ce2e437): /update und /sounds kuendigen jetzt beide an, dass die LED waehrend des Flashens durchgehend leuchtet - loop() laeuft dabei nicht, die LED ist die einzige Anzeige"
 }
